@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 import java.math.*;
+import java.sql.*;
 
 //2/27/12 4:22 PM
 //by Abrackadabra
@@ -15,7 +16,7 @@ public class Tester {
 
     void run() {
         try {
-            Player one = new Player("dsadsa", "first");
+            //new Game("maps\\1.map", );
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }

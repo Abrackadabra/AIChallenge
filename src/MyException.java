@@ -6,7 +6,8 @@ import java.math.*;
 //by Abrackadabra
 
 public class MyException extends Exception {
-    public MyException(String name, String message) {
-        super(name + " failed because " + message);
+    public MyException(String when, String name, String message) {
+        super(when + "\n" + name + " failed because " + message);
+        System.err.println(message);
     }
 }
